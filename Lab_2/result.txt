@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /home/andriy/Labs/Lab_2
+collected 5 items
+
+tests/tests.py .....                                                     [100%]
+
+============================== 5 passed in 2.02s ===============================
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  04:26:58 PM
+Date is:  11-10-2020
+success
+Happy night
