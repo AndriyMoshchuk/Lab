@@ -1,0 +1,23 @@
+ERROR 2020-11-30 00:06:22,884 root : Server is not running nowa
+ERROR 2020-11-30 00:07:18,245 root : Server is not running nowa
+INFO 2020-11-30 00:08:18,306 root : Сервер доступний. Час на сервері: 2020-11-29T22:08:18.303850
+INFO 2020-11-30 00:08:18,307 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-30 00:08:18,307 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-30 00:08:18,309 root : Ключ: datetime, Значення: 2020-11-29T22:08:18.303850
+INFO 2020-11-30 00:08:18,309 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2020-11-30 00:08:18,309 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'server_Login': 'andriy'}
+INFO 2020-11-30 00:08:18,309 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.0', 'remote addr': '127.0.0.1'}
+INFO 2020-11-30 00:09:18,365 root : Сервер доступний. Час на сервері: 2020-11-29T22:09:18.363911
+INFO 2020-11-30 00:09:18,366 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-30 00:09:18,366 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-30 00:09:18,366 root : Ключ: datetime, Значення: 2020-11-29T22:09:18.363911
+INFO 2020-11-30 00:09:18,366 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2020-11-30 00:09:18,366 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'server_Login': 'andriy'}
+INFO 2020-11-30 00:09:18,366 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.0', 'remote addr': '127.0.0.1'}
+INFO 2020-11-30 00:10:18,415 root : Сервер доступний. Час на сервері: 2020-11-29T22:10:18.412715
+INFO 2020-11-30 00:10:18,415 root : Запитувана сторінка: : http://localhost:8000/health/
+INFO 2020-11-30 00:10:18,415 root : Відповідь сервера місти наступні поля:
+INFO 2020-11-30 00:10:18,415 root : Ключ: datetime, Значення: 2020-11-29T22:10:18.412715
+INFO 2020-11-30 00:10:18,415 root : Ключ: server_url, Значення: http://localhost:8000/health/
+INFO 2020-11-30 00:10:18,415 root : Ключ: server_iinfo, Значення: {'system': 'posix', 'server_Login': 'andriy'}
+INFO 2020-11-30 00:10:18,416 root : Ключ: client_info, Значення: {'user agent': 'python-requests/2.25.0', 'remote addr': '127.0.0.1'}

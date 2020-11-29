@@ -10,5 +10,16 @@ def main(request):
 
 
 def health(request):
-    response = {'date': 'test1', 'current_page': "test2", 'server_info': "test3", 'client_info': "test4"}
+    response = {
+        'datetime': datetime.now().isoformat(),
+        'server_url': request.build_absolute_uri(),
+        'server_iinfo': {
+            'system': os.name,
+            'server_Login': os.getlogin(),
+        },
+        'client_info': {
+            'user agent': request.headers['User-Agent'],
+            'remote addr': request.META['REMOTE_ADDR'],
+        }
+    }
     return JsonResponse(response)
