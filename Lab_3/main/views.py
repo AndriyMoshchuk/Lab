@@ -15,7 +15,6 @@ def health(request):
         'server_url': request.build_absolute_uri(),
         'server_iinfo': {
             'system': os.name,
-            'server_Login': os.getlogin(),
         },
         'client_info': {
             'user agent': request.headers['User-Agent'],
